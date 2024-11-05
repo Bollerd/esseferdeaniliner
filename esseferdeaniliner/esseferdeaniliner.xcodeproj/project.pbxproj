@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F375000C2AA23FFF00A55BC4 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F375FFE22AA2287A00A55BC4 /* Model.swift */; };
+		F375000D2AA2400C00A55BC4 /* ConfigData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F375FFE42AA2288500A55BC4 /* ConfigData.swift */; };
+		F37500162AA263EC00A55BC4 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F375FFF32AA23E6900A55BC4 /* WidgetKit.framework */; };
+		F37500172AA263EC00A55BC4 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F375FFF52AA23E6900A55BC4 /* SwiftUI.framework */; };
+		F375001A2AA263EC00A55BC4 /* esseferdeanilinerwidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37500192AA263EC00A55BC4 /* esseferdeanilinerwidgetBundle.swift */; };
+		F375001C2AA263EC00A55BC4 /* esseferdeanilinerwidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F375001B2AA263EC00A55BC4 /* esseferdeanilinerwidget.swift */; };
+		F375001E2AA263ED00A55BC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F375001D2AA263ED00A55BC4 /* Assets.xcassets */; };
+		F37500222AA263ED00A55BC4 /* esseferdeanilinerwidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F37500152AA263EC00A55BC4 /* esseferdeanilinerwidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F37500262AA263F200A55BC4 /* ConfigData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F375FFE42AA2288500A55BC4 /* ConfigData.swift */; };
+		F37500272AA263F400A55BC4 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F375FFE22AA2287A00A55BC4 /* Model.swift */; };
+		F37500282AA263F800A55BC4 /* basfgastroconfig.json in Resources */ = {isa = PBXBuildFile; fileRef = F375FFE82AA22C1100A55BC4 /* basfgastroconfig.json */; };
+		F375003D2AA5BC2400A55BC4 /* AppIntents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F375003C2AA5BC2400A55BC4 /* AppIntents.framework */; };
+		F375FFC72AA226FE00A55BC4 /* esseferdeanilinerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F375FFC62AA226FE00A55BC4 /* esseferdeanilinerApp.swift */; };
+		F375FFC92AA226FE00A55BC4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F375FFC82AA226FE00A55BC4 /* ContentView.swift */; };
+		F375FFCB2AA226FF00A55BC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F375FFCA2AA226FF00A55BC4 /* Assets.xcassets */; };
+		F375FFCE2AA226FF00A55BC4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F375FFCD2AA226FF00A55BC4 /* Preview Assets.xcassets */; };
+		F375FFD62AA2276D00A55BC4 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = F375FFD52AA2276D00A55BC4 /* SDWebImageSwiftUI */; };
+		F375FFD92AA2278A00A55BC4 /* SwiftHelperExtensions in Frameworks */ = {isa = PBXBuildFile; productRef = F375FFD82AA2278A00A55BC4 /* SwiftHelperExtensions */; };
+		F375FFDD2AA2280300A55BC4 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F375FFDC2AA2280300A55BC4 /* SettingsView.swift */; };
+		F375FFDF2AA2282E00A55BC4 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F375FFDE2AA2282E00A55BC4 /* DetailView.swift */; };
+		F375FFE12AA2284600A55BC4 /* AllergenesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F375FFE02AA2284600A55BC4 /* AllergenesView.swift */; };
+		F375FFE92AA22C1100A55BC4 /* basfgastroconfig.json in Resources */ = {isa = PBXBuildFile; fileRef = F375FFE82AA22C1100A55BC4 /* basfgastroconfig.json */; };
+		F375FFEB2AA2319C00A55BC4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F375FFEA2AA2319C00A55BC4 /* Constants.swift */; };
+		F3B6BB5A2C9172600043DA46 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F375FFEA2AA2319C00A55BC4 /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F37500202AA263ED00A55BC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F375FFBB2AA226FE00A55BC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F37500142AA263EB00A55BC4;
+			remoteInfo = esseferdeanilinerwidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F37500082AA23E6A00A55BC4 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F37500222AA263ED00A55BC4 /* esseferdeanilinerwidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F37500152AA263EC00A55BC4 /* esseferdeanilinerwidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = esseferdeanilinerwidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F37500192AA263EC00A55BC4 /* esseferdeanilinerwidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = esseferdeanilinerwidgetBundle.swift; sourceTree = "<group>"; };
+		F375001B2AA263EC00A55BC4 /* esseferdeanilinerwidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = esseferdeanilinerwidget.swift; sourceTree = "<group>"; };
+		F375001D2AA263ED00A55BC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F375001F2AA263ED00A55BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F37500292AA5AFCF00A55BC4 /* esseferdeaniliner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = esseferdeaniliner.entitlements; sourceTree = "<group>"; };
+		F375003C2AA5BC2400A55BC4 /* AppIntents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppIntents.framework; path = System/Library/Frameworks/AppIntents.framework; sourceTree = SDKROOT; };
+		F375FFC32AA226FE00A55BC4 /* esseferdeaniliner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = esseferdeaniliner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F375FFC62AA226FE00A55BC4 /* esseferdeanilinerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = esseferdeanilinerApp.swift; sourceTree = "<group>"; };
+		F375FFC82AA226FE00A55BC4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F375FFCA2AA226FF00A55BC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F375FFCD2AA226FF00A55BC4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F375FFDC2AA2280300A55BC4 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F375FFDE2AA2282E00A55BC4 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		F375FFE02AA2284600A55BC4 /* AllergenesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllergenesView.swift; sourceTree = "<group>"; };
+		F375FFE22AA2287A00A55BC4 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		F375FFE42AA2288500A55BC4 /* ConfigData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigData.swift; sourceTree = "<group>"; };
+		F375FFE82AA22C1100A55BC4 /* basfgastroconfig.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = basfgastroconfig.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
+		F375FFEA2AA2319C00A55BC4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F375FFEC2AA23B8600A55BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F375FFF32AA23E6900A55BC4 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		F375FFF52AA23E6900A55BC4 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		F3E51BFC2CD9327500F8F85D /* README.MD */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.MD; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F37500122AA263EB00A55BC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F37500172AA263EC00A55BC4 /* SwiftUI.framework in Frameworks */,
+				F37500162AA263EC00A55BC4 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F375FFC02AA226FE00A55BC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F375FFD92AA2278A00A55BC4 /* SwiftHelperExtensions in Frameworks */,
+				F375FFD62AA2276D00A55BC4 /* SDWebImageSwiftUI in Frameworks */,
+				F375003D2AA5BC2400A55BC4 /* AppIntents.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F37500182AA263EC00A55BC4 /* esseferdeanilinerwidget */ = {
+			isa = PBXGroup;
+			children = (
+				F37500192AA263EC00A55BC4 /* esseferdeanilinerwidgetBundle.swift */,
+				F375001B2AA263EC00A55BC4 /* esseferdeanilinerwidget.swift */,
+				F375001D2AA263ED00A55BC4 /* Assets.xcassets */,
+				F375001F2AA263ED00A55BC4 /* Info.plist */,
+			);
+			path = esseferdeanilinerwidget;
+			sourceTree = "<group>";
+		};
+		F375FFBA2AA226FE00A55BC4 = {
+			isa = PBXGroup;
+			children = (
+				F375FFC52AA226FE00A55BC4 /* esseferdeaniliner */,
+				F37500182AA263EC00A55BC4 /* esseferdeanilinerwidget */,
+				F375FFF22AA23E6900A55BC4 /* Frameworks */,
+				F375FFC42AA226FE00A55BC4 /* Products */,
+				F3E51BFC2CD9327500F8F85D /* README.MD */,
+			);
+			sourceTree = "<group>";
+		};
+		F375FFC42AA226FE00A55BC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F375FFC32AA226FE00A55BC4 /* esseferdeaniliner.app */,
+				F37500152AA263EC00A55BC4 /* esseferdeanilinerwidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F375FFC52AA226FE00A55BC4 /* esseferdeaniliner */ = {
+			isa = PBXGroup;
+			children = (
+				F37500292AA5AFCF00A55BC4 /* esseferdeaniliner.entitlements */,
+				F375FFEC2AA23B8600A55BC4 /* Info.plist */,
+				F375FFDB2AA227A600A55BC4 /* Models */,
+				F375FFDA2AA2279000A55BC4 /* Views */,
+				F375FFC62AA226FE00A55BC4 /* esseferdeanilinerApp.swift */,
+				F375FFCA2AA226FF00A55BC4 /* Assets.xcassets */,
+				F375FFCC2AA226FF00A55BC4 /* Preview Content */,
+				F375FFE82AA22C1100A55BC4 /* basfgastroconfig.json */,
+			);
+			path = esseferdeaniliner;
+			sourceTree = "<group>";
+		};
+		F375FFCC2AA226FF00A55BC4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F375FFCD2AA226FF00A55BC4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F375FFDA2AA2279000A55BC4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F375FFC82AA226FE00A55BC4 /* ContentView.swift */,
+				F375FFDC2AA2280300A55BC4 /* SettingsView.swift */,
+				F375FFDE2AA2282E00A55BC4 /* DetailView.swift */,
+				F375FFE02AA2284600A55BC4 /* AllergenesView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F375FFDB2AA227A600A55BC4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F375FFEA2AA2319C00A55BC4 /* Constants.swift */,
+				F375FFE22AA2287A00A55BC4 /* Model.swift */,
+				F375FFE42AA2288500A55BC4 /* ConfigData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F375FFF22AA23E6900A55BC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F375003C2AA5BC2400A55BC4 /* AppIntents.framework */,
+				F375FFF32AA23E6900A55BC4 /* WidgetKit.framework */,
+				F375FFF52AA23E6900A55BC4 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F37500142AA263EB00A55BC4 /* esseferdeanilinerwidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F37500232AA263ED00A55BC4 /* Build configuration list for PBXNativeTarget "esseferdeanilinerwidgetExtension" */;
+			buildPhases = (
+				F37500112AA263EB00A55BC4 /* Sources */,
+				F37500122AA263EB00A55BC4 /* Frameworks */,
+				F37500132AA263EB00A55BC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = esseferdeanilinerwidgetExtension;
+			productName = esseferdeanilinerwidgetExtension;
+			productReference = F37500152AA263EC00A55BC4 /* esseferdeanilinerwidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		F375FFC22AA226FE00A55BC4 /* esseferdeaniliner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F375FFD12AA226FF00A55BC4 /* Build configuration list for PBXNativeTarget "esseferdeaniliner" */;
+			buildPhases = (
+				F375FFBF2AA226FE00A55BC4 /* Sources */,
+				F375FFC02AA226FE00A55BC4 /* Frameworks */,
+				F375FFC12AA226FE00A55BC4 /* Resources */,
+				F37500082AA23E6A00A55BC4 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F37500212AA263ED00A55BC4 /* PBXTargetDependency */,
+			);
+			name = esseferdeaniliner;
+			packageProductDependencies = (
+				F375FFD52AA2276D00A55BC4 /* SDWebImageSwiftUI */,
+				F375FFD82AA2278A00A55BC4 /* SwiftHelperExtensions */,
+			);
+			productName = esseferdeaniliner;
+			productReference = F375FFC32AA226FE00A55BC4 /* esseferdeaniliner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F375FFBB2AA226FE00A55BC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F37500142AA263EB00A55BC4 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					F375FFC22AA226FE00A55BC4 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F375FFBE2AA226FE00A55BC4 /* Build configuration list for PBXProject "esseferdeaniliner" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = de;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				de,
+			);
+			mainGroup = F375FFBA2AA226FE00A55BC4;
+			packageReferences = (
+				F375FFD42AA2276D00A55BC4 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				F375FFD72AA2278A00A55BC4 /* XCRemoteSwiftPackageReference "SwiftHelper" */,
+			);
+			productRefGroup = F375FFC42AA226FE00A55BC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F375FFC22AA226FE00A55BC4 /* esseferdeaniliner */,
+				F37500142AA263EB00A55BC4 /* esseferdeanilinerwidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F37500132AA263EB00A55BC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F375001E2AA263ED00A55BC4 /* Assets.xcassets in Resources */,
+				F37500282AA263F800A55BC4 /* basfgastroconfig.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F375FFC12AA226FE00A55BC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F375FFCE2AA226FF00A55BC4 /* Preview Assets.xcassets in Resources */,
+				F375FFCB2AA226FF00A55BC4 /* Assets.xcassets in Resources */,
+				F375FFE92AA22C1100A55BC4 /* basfgastroconfig.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F37500112AA263EB00A55BC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B6BB5A2C9172600043DA46 /* Constants.swift in Sources */,
+				F37500262AA263F200A55BC4 /* ConfigData.swift in Sources */,
+				F375001C2AA263EC00A55BC4 /* esseferdeanilinerwidget.swift in Sources */,
+				F375001A2AA263EC00A55BC4 /* esseferdeanilinerwidgetBundle.swift in Sources */,
+				F37500272AA263F400A55BC4 /* Model.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F375FFBF2AA226FE00A55BC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F375000D2AA2400C00A55BC4 /* ConfigData.swift in Sources */,
+				F375FFDD2AA2280300A55BC4 /* SettingsView.swift in Sources */,
+				F375FFDF2AA2282E00A55BC4 /* DetailView.swift in Sources */,
+				F375FFC92AA226FE00A55BC4 /* ContentView.swift in Sources */,
+				F375FFC72AA226FE00A55BC4 /* esseferdeanilinerApp.swift in Sources */,
+				F375FFE12AA2284600A55BC4 /* AllergenesView.swift in Sources */,
+				F375FFEB2AA2319C00A55BC4 /* Constants.swift in Sources */,
+				F375000C2AA23FFF00A55BC4 /* Model.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F37500212AA263ED00A55BC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F37500142AA263EB00A55BC4 /* esseferdeanilinerwidgetExtension */;
+			targetProxy = F37500202AA263ED00A55BC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F37500242AA263ED00A55BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_TEAM = Z6946K9NFZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = esseferdeanilinerwidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = esseferdeanilinerwidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.bollernet.esseferdeaniliner.esseferdeanilinerwidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F37500252AA263ED00A55BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_TEAM = Z6946K9NFZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = esseferdeanilinerwidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = esseferdeanilinerwidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.bollernet.esseferdeaniliner.esseferdeanilinerwidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F375FFCF2AA226FF00A55BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F375FFD02AA226FF00A55BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F375FFD22AA226FF00A55BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = esseferdeaniliner/esseferdeaniliner.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 15;
+				DEVELOPMENT_ASSET_PATHS = "\"esseferdeaniliner/Preview Content\"";
+				DEVELOPMENT_TEAM = Z6946K9NFZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = esseferdeaniliner/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Esse fer de Aniliner";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.bollernet.esseferdeaniliner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F375FFD32AA226FF00A55BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = esseferdeaniliner/esseferdeaniliner.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 15;
+				DEVELOPMENT_ASSET_PATHS = "\"esseferdeaniliner/Preview Content\"";
+				DEVELOPMENT_TEAM = Z6946K9NFZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = esseferdeaniliner/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Esse fer de Aniliner";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.bollernet.esseferdeaniliner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F37500232AA263ED00A55BC4 /* Build configuration list for PBXNativeTarget "esseferdeanilinerwidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F37500242AA263ED00A55BC4 /* Debug */,
+				F37500252AA263ED00A55BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F375FFBE2AA226FE00A55BC4 /* Build configuration list for PBXProject "esseferdeaniliner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F375FFCF2AA226FF00A55BC4 /* Debug */,
+				F375FFD02AA226FF00A55BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F375FFD12AA226FF00A55BC4 /* Build configuration list for PBXNativeTarget "esseferdeaniliner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F375FFD22AA226FF00A55BC4 /* Debug */,
+				F375FFD32AA226FF00A55BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F375FFD42AA2276D00A55BC4 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		F375FFD72AA2278A00A55BC4 /* XCRemoteSwiftPackageReference "SwiftHelper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Bollerd/SwiftHelper.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F375FFD52AA2276D00A55BC4 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F375FFD42AA2276D00A55BC4 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		F375FFD82AA2278A00A55BC4 /* SwiftHelperExtensions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F375FFD72AA2278A00A55BC4 /* XCRemoteSwiftPackageReference "SwiftHelper" */;
+			productName = SwiftHelperExtensions;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F375FFBB2AA226FE00A55BC4 /* Project object */;
+}
