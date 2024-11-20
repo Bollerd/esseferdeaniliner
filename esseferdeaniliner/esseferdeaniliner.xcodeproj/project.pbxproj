@@ -514,7 +514,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = esseferdeaniliner/esseferdeaniliner.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 15;
+				CURRENT_PROJECT_VERSION = 16;
 				DEVELOPMENT_ASSET_PATHS = "\"esseferdeaniliner/Preview Content\"";
 				DEVELOPMENT_TEAM = Z6946K9NFZ;
 				ENABLE_PREVIEWS = YES;
@@ -547,7 +547,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = esseferdeaniliner/esseferdeaniliner.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 15;
+				CURRENT_PROJECT_VERSION = 16;
 				DEVELOPMENT_ASSET_PATHS = "\"esseferdeaniliner/Preview Content\"";
 				DEVELOPMENT_TEAM = Z6946K9NFZ;
 				ENABLE_PREVIEWS = YES;
