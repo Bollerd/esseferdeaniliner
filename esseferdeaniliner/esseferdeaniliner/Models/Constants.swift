@@ -8,5 +8,5 @@
 import SwiftUI
 
 let headlineBackground = Color("HeadlineBackground")
-let BUILD = "16"
+let BUILD = "20"
 let VERSION = "1.0"

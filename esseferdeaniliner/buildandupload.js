@@ -76,6 +76,10 @@ function checkBuildFolder() {
 }
 
 async function executeShell(command) {
+  console.log("Will run command:");
+  console.log("--------------------");
+  console.log(command);
+  console.log("--------------------");
   return new Promise(function (resolve, reject) {
     const child = exec(command, (error, stdout, stderr) => {
       if (error) {
@@ -111,7 +115,7 @@ async function gitPush() {
 async function buildArchive() {
   const workspacePath = path.join(__dirname, settings.workspaceFile);
   const command = `xcodebuild -workspace "${workspacePath}" -scheme "${settings.scheme}" -configuration "Release" -sdk iphoneos archive -archivePath "${__dirname}/build/${settings.archiveFile}"`;
-
+ 
   await executeShell(command);
 }
 
