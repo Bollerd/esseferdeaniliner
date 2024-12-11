@@ -119,7 +119,6 @@
 		F375FFEC2AA23B8600A55BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		F375FFF32AA23E6900A55BC4 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		F375FFF52AA23E6900A55BC4 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
-		F39AC4DD2CDA7AD80079D5D6 /* README.MD */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.MD; sourceTree = "<group>"; };
 		F3F8835C2D04C3FB003FA0CA /* watchesseferdeaniliner Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watchesseferdeaniliner Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3F8836B2D04C3FC003FA0CA /* watchesseferdeaniliner Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "watchesseferdeaniliner Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3F883752D04C3FC003FA0CA /* watchesseferdeaniliner Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "watchesseferdeaniliner Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -198,7 +197,6 @@
 				F3F883782D04C3FC003FA0CA /* watchesseferdeaniliner Watch AppUITests */,
 				F375FFF22AA23E6900A55BC4 /* Frameworks */,
 				F375FFC42AA226FE00A55BC4 /* Products */,
-				F39AC4DD2CDA7AD80079D5D6 /* README.MD */,
 			);
 			sourceTree = "<group>";
 		};

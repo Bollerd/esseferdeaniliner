@@ -14,6 +14,8 @@ Zusätzlich hat die App eine Widget Anzeige für die gewählte Kantine am heutig
 
 Außerdem hat die App eine Siri Integration. Über die Kurzbefehle App kann ein Sprachbefehl für die App erstellt werden, der dann die Speiseplaninformation entweder in einer Textbox anzeigt oder per Sprachausgabe vorliest.
 
+Für Besitzer einer Apple Watch gibt es auch eine Watch OS fähige App, die die Übersicht und die Detailanzeige in einer für Watch OS optimierten und abgespeckten Version ermöglicht. Die Bildanzeige ist in Watch OS deaktiviert und die Einstellungen für die App sind vonmKopf der Übersichtsseite in iOS auf das Ende der Detailseite in Watch OS verschoben worden.
+
 ## Technische Informationen
 
 Die Daten bezieht die App von der original "BASF Gastronomie" App. Allerdings sind teilweise Informationen aus der original App in diese App kopiert und sofern sich die Informationen dort ändern würden, müsste der Code in meiner App angepasst werden. Dabei geht es zum Beispiel um die Allergene und Zusatzstoff Informationen. Deren Schlüssel wurden von mir aus der BASF App kopiert und in meiner App hinterlegt. Würden sich diese Schlüssel ändern, ist der Code bei meiner App ebenfalls anzupassen.
@@ -38,3 +40,9 @@ Die App kann mit dem vorhandenen Code aus Github direkt 1:1 verwendet werden.
 
 ### Siri Integration
 ![Siri](https://ios.dbweb.info/wp-content/uploads/2024/11/esse5-scaled.jpg)
+
+### Watch OS Übersicht
+![Watch Übersicht](https://ios.dbweb.info/wp-content/uploads/2024/12/esseferdeaniliner_watch1.png)
+
+### Watch OS Detail
+![Watch Detail](https://ios.dbweb.info/wp-content/uploads/2024/12/esseferdeaniliner_watch2.png)

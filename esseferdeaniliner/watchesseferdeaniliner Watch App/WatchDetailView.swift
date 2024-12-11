@@ -29,7 +29,7 @@ struct DetailView: View {
                 HStack {
                     Text("\(menu.dishName)").font(.body).multilineTextAlignment(.leading)
                         .foregroundStyle(.black)
-                }.background(Rectangle().fill(headlineBackground).shadow(radius: 3).cornerRadius(10))
+                }.padding(5).background(Rectangle().fill(headlineBackground).shadow(radius: 3).cornerRadius(10))
                 HStack {
                     Spacer()
                     Text("\(menu.priceInt, specifier: "%.2f") EUR")
